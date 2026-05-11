@@ -1,0 +1,3 @@
+-keep class com.fluxfabric.plugin.TrafficPlugin { *; }
+-keep class com.fluxfabric.plugin.BasePlugin { *; }
+-keep class * implements com.fluxfabric.plugin.TrafficPlugin { *; }
